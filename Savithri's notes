@@ -1,1 +1,5 @@
-
+Details of how an order goes through/processing - 
+Zomato uses Apache Kafka, an open-source system developed by Apache Software Foundation, to make sure the app runs smoothly and that delivery times are kept updated, etc.
+Once an order is placed, an ‘event’ is created on Kafka. 
+Things like orders, payment and delivery are handled separately on different events so they don't block each other and cause an overload in one single event. 
+This system also takes care of Zomato’s notification system, sending our order updates to the customer as the order progresses to the next step. Kafka has an ‘event log model’ for when the system is down. It stores information in the log that can be accessed once the server is up and running.
