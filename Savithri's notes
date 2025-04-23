@@ -3,3 +3,5 @@ Zomato uses Apache Kafka, an open-source system developed by Apache Software Fou
 Once an order is placed, an ‘event’ is created on Kafka. 
 Things like orders, payment and delivery are handled separately on different events so they don't block each other and cause an overload in one single event. 
 This system also takes care of Zomato’s notification system, sending our order updates to the customer as the order progresses to the next step. Kafka has an ‘event log model’ for when the system is down. It stores information in the log that can be accessed once the server is up and running.
+Zomato's system does something called sharding.
+Sharding may be done based on geographic location, region, etc. This helps reduce processing time and allows for faster response time.
