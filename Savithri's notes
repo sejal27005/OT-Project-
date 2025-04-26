@@ -5,3 +5,8 @@ Things like orders, payment and delivery are handled separately on different eve
 This system also takes care of Zomato’s notification system, sending our order updates to the customer as the order progresses to the next step. Kafka has an ‘event log model’ for when the system is down. It stores information in the log that can be accessed once the server is up and running.
 Zomato's system does something called sharding.
 Sharding may be done based on geographic location, region, etc. This helps reduce processing time and allows for faster response time.
+Faiz and I spoke to a friend we know uses Zomato quite a bit. 
+A couple questions we asked -
+1. How often do you use Zomato? Around 3-4 times a week
+2. How many times has an order been cancelled by Zomato? Around 7-8 times
+3. What has your experience with customer service been like? They said they have, for the most part, had issues resolved immedieatly, expect for once, where they redused to give them a refund because the order had already been started. 
