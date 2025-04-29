@@ -1,7 +1,7 @@
 Zomato uses dynamic pricing which means that prices for food and delivery can change based on factors such as demand, time of the day, weather conditions, and the number of available delivery partners.
- The platform also monitors competition like Swiggy and Ola Eats by comparing the prices mentioned in the menus, discounts offered, and delivery fees, allowing Zomato to adjust its own strategies to stay competitive accordingly. 
+The platform also monitors competition like Swiggy and Ola Eats by comparing the prices mentioned in the menus, discounts offered, and delivery fees, allowing Zomato to adjust its own strategies to stay competitive accordingly. 
 Promotional offers like “Zomato Gold”, seasonal deals, discounts which are available only on the app are used to attract and retain customers.
- Zomato’s web and mobile apps are built using React and React Native which helps to create a smooth and user-friendly interface. 
+Zomato’s web and mobile apps are built using React and React Native which helps to create a smooth and user-friendly interface. 
 On the backend, Zomato runs mainly on programming languages like Python and Node.js. These help the system handle everything from taking orders to managing restaurant data. In order to store all this information like the details of the customers, order history, and restaurant- they use databases such as PostgresSQL for structured data and MondoDB for more flexible, unstructured data.
 The platform runs on Amazon Web Services (AWS), using services such as:
 EC2 for computing power
