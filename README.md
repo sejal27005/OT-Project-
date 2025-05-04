@@ -1,15 +1,18 @@
-Zomato’s technology infrastructure is a powerful combination of modern web development, machine learning, and cloud computing. On the frontend, Zomato uses React for its web application and React Native for its mobile apps, ensuring a fast and smooth user experience across platforms. These frameworks help create responsive interfaces where users can quickly search for restaurants, browse menus, and place orders without delays or glitches.
+Ansh Chandail
+GIThub Journal repository link -  https://github.com/ianshchandail/Exploring-Digital-Technology 
 
-On the backend, Zomato operates using Python and Node.js, which are well-suited for handling millions of user requests and supporting real-time data processing. Data is stored using a hybrid database system — PostgreSQL, a relational database used for structured data like user accounts and order history, and MongoDB, a NoSQL database ideal for unstructured data such as reviews and images. This data infrastructure runs on Amazon Web Services (AWS), leveraging services like EC2 for computing power, S3 for storing large files like restaurant menus and images, and RDS for managing relational databases .
+A Faiz
+GIThub Journal repository link -  
+https://github.com/Faizz18/Week_Reflection.git 
 
-Zomato’s core strength lies in its use of machine learning and artificial intelligence to personalize the user experience. The recommendation system is powered by models like XGBoost and LightGBM, which analyze a user’s past orders and preferences to suggest restaurants and dishes they’re likely to enjoy. These models use a combination of collaborative filtering (which shows what similar users like) and content-based filtering (which looks at your own behavior) to refine recommendations over time .
+Ishika Dahiya
+GIThub Journal repository link -  
+https://github.com/ishikadahiya006/Class-reflections 
 
-One of the most dynamic applications of AI in Zomato is its real-time pricing engine. The platform uses time series forecasting tools like Facebook Prophet to predict demand surges and reinforcement learning methods to experiment with delivery charges and optimize them without turning customers away. For example, during rainy evenings or lunch rushes, Zomato may increase delivery fees using real-time calculations based on location, availability of delivery partners, and weather conditions .
 
-To calculate estimated delivery times, Zomato incorporates traffic conditions from Google Maps API, kitchen preparation time from partner restaurants, and GPS data from delivery agents. These inputs are fed into models such as Random Forests and Gradient Boosted Decision Trees (GBDT), often developed using libraries like Scikit-learn or CatBoost, which predict how long an order will take and update it in real time.
+Savithri Narayan
+GIThub Journal repository link -  
+https://github.com/professorbooo/Exploring-Digital-Technology.git 
 
-The search functionality on the app is powered by ElasticSearch, which delivers fast and context-aware suggestions by indexing restaurant and menu data. Natural language processing (NLP) tools like spaCy or fastText are likely used to handle misspellings, autocomplete terms, and understand user intent. This allows users to find “chicken biryani” even if they type only “chi” or make small errors. Apache Kafka is also used to sync search data and results across systems in real time .
-
-Zomato has also implemented AI in fraud detection and customer support. Using anomaly detection algorithms such as Isolation Forests and Autoencoders, Zomato flags unusual user behavior — such as repeated refund requests or suspicious ordering patterns. In the customer support domain, they apply advanced NLP models like DistilBERT to analyze the sentiment and urgency of user complaints. This allows the platform to automatically escalate or resolve issues more efficiently, helping to reduce manual load on customer service teams .
-
-Overall, Zomato’s tech stack combines powerful tools across every layer — from React and Node.js on the surface, to Python-driven AI models in the backend, and scalable cloud services from AWS underneath. Their use of data science is not just for personalization, but also for logistics, pricing, search, and customer satisfaction — all of which are essential for running a modern, high-volume food delivery service.
+Sejal Dhole 
+GIThub Journal repository link -  https://githuhttps://github.com/sejal27005/Class_reflectionsb.com/sejal27005/Class_reflections 
